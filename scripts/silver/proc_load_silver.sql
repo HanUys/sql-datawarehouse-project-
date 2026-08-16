@@ -250,4 +250,4 @@ BEGIN
 		PRINT 'Error Message' + CAST (ERROR_STATE() AS NVARCHAR);
 		PRINT '=========================================='
 	END CATCH
-END,
+END
